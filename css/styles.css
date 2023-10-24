@@ -502,7 +502,7 @@ img {
   margin-bottom: 16px;
 }
 
-.foooter-menu {
+.footer-menu-social-net {
   display: flex;
   gap: 16px;
 }
@@ -525,6 +525,10 @@ img {
 .footer-menu-list-item:hover,
 .footer-menu-list-item:focus {
   background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }
 
 .footer-logo {
