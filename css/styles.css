@@ -116,7 +116,7 @@ img {
   position: relative;
 }
 
-.link:active::after {
+.menu-items:first-child .link:active::after {
   width: 48px;
   height: 4px;
   background-color: #404bbf;
@@ -176,7 +176,6 @@ img {
 
 /* Page-Main */
 .sollution {
-  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -188,7 +187,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
 }
 .main-title {
   font-size: 56px;
