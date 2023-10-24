@@ -105,7 +105,11 @@ img {
 }
 
 .link {
-  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,7 +117,6 @@ img {
 }
 
 .link:active::after {
-  display: block;
   width: 48px;
   height: 4px;
   background-color: #404bbf;
@@ -135,13 +138,6 @@ img {
   gap: 40px;
 }
 
-.menu .menu-items .link {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 .menu .link:hover,
 .menu .link:focus {
   color: #404bbf;
@@ -180,6 +176,7 @@ img {
 
 /* Page-Main */
 .sollution {
+  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -191,6 +188,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 }
 .main-title {
   font-size: 56px;
