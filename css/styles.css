@@ -483,6 +483,10 @@ img {
   align-items: baseline;
 }
 
+.second-container {
+  margin-right: 120px;
+}
+
 .social-net-container {
   display: flex;
   align-items: baseline;
