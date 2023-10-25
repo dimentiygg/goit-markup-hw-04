@@ -116,7 +116,7 @@ img {
   position: relative;
 }
 
-.menu-items:first-child .link:active::after {
+.link:active::after {
   width: 48px;
   height: 4px;
   background-color: #404bbf;
@@ -486,6 +486,7 @@ img {
 .social-net-container {
   display: flex;
   align-items: baseline;
+  flex-direction: column;
 }
 
 .footer-text-social-net {
